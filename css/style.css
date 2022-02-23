@@ -79,7 +79,7 @@ ul{
 .element-style{
     display: block;
     width: 100%;
-    vertical-align: middle;
+    text-align: middle;
 }
 
 .element-style-a{
