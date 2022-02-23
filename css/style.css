@@ -1,0 +1,142 @@
+*,
+*::after
+*::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    background: none;
+}
+
+.lista-inicial a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo {
+    color: rgb(54, 51, 52);
+    font-weight: bold;
+    transition: .5s all;
+    font-size: 70px;
+}
+
+.text {
+    margin: 3px;
+}
+
+.section-initial div {
+    border: 2px solid pink;
+}
+
+.section-initial div:first-child {
+    border-color: blue;
+}
+
+.firsttitle{
+    font-size: 40px;
+}
+
+.first-div {
+    background: black;
+} 
+
+
+.header {
+    font-size: 20px;
+}
+
+.section-tenis{
+    width: 520px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.corrida{
+    position: absolute; 
+    right: 1000px;
+    top: 50%;
+}
+
+.section-run {
+    background-image: url('../img/TENISPISTA.png');
+    height: 720px;
+    background-size: cover;
+} 
+
+.header-li{
+    display: initial;
+}
+.element-style{
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.element-style-a{
+    display: block;
+    margin: 30px;
+    width: 48px;
+    right: 100px;
+}
+
+.display{
+    display:flex;
+    justify-content:space-around
+    
+}
+
+.display2{
+    position: absolute;
+    top: 48px;
+    right: 600px;
+} 
+
+.size-button{
+    width:12%;
+    height:50px;
+}
+
+.footer{
+    background: rgb(105, 98, 98);
+}
+
+.section-insta{
+    width:20px;
+    height:20px;
+}
+
+.display3{
+    position: absolute;
+    top: 700px;
+    right: 80px;
+    width: 600px;
+}
+
+.display4{
+    position: absolute;
+    top: 700px;
+    right: 200px;
+    width: 400px; 
+}
+
+.display5{
+    position: absolute;
+    top: 700px;
+    right: 100px;
+    width: 227.2px; 
+}
+
+
+
+
+   
