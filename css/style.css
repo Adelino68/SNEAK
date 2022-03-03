@@ -70,6 +70,7 @@ ul{
 .section-run {
     background-image: url('../img/TENISPISTA.png');
     height: 720px;
+    width: 100%;
     background-size: cover;
 } 
 
@@ -107,7 +108,10 @@ ul{
 }
 
 .footer{
-    background: rgb(105, 98, 98);
+    background: #F3F3F3;
+    width:100%;
+    height:250px
+    
 }
 
 .section-insta{
@@ -135,6 +139,21 @@ ul{
     right: 100px;
     width: 227.2px; 
 }
+
+.title-run{
+    font-size:50px;
+    color: white;
+
+}
+
+.designed-base{
+    display: flex; flex-direction:row-reverse; justify-content:center; align-items:flex-end;
+    align-content:space-between
+   
+}
+
+
+
 
 
 
