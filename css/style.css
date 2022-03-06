@@ -70,7 +70,8 @@ ul{
 .section-run {
     background-image: url('../img/TENISPISTA.png');
     height: 720px;
-    width: 100%;
+    width: 2200px;
+    margin:0%;
     background-size: cover;
 } 
 
@@ -85,9 +86,11 @@ ul{
 
 .element-style-a{
     display: block;
-    margin: 30px;
+    margin: 0px;
     width: 48px;
-    right: 100px;
+    background-size: cover;
+    
+    
 }
 
 .display{
@@ -109,8 +112,11 @@ ul{
 
 .footer{
     background: #F3F3F3;
-    width:100%;
-    height:250px
+    width: 2200px;
+    height:250px;
+    right: 0%;
+    background-size: 100%;
+    
     
 }
 
