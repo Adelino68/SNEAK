@@ -13,6 +13,7 @@ ul{
 
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0%;
 }
 ul{
     background: none;
@@ -30,9 +31,7 @@ ul{
     font-size: 70px;
 }
 
-.text {
-    margin: 3px;
-}
+
 
 .section-initial div {
     border: 2px solid pink;
@@ -69,10 +68,12 @@ ul{
 
 .section-run {
     background-image: url('../img/TENISPISTA.png');
-    height: 720px;
-    width: 2200px;
-    margin:0%;
+    width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 720px;
+    margin-left: 0%;
+    
 } 
 
 .header-li{
@@ -88,16 +89,12 @@ ul{
     display: block;
     margin: 0px;
     width: 48px;
+    margin-inline-end: 0%;
     background-size: cover;
-    
     
 }
 
-.display{
-    display:flex;
-    justify-content:space-around
-    
-}
+
 
 .display2{
     position: absolute;
@@ -108,11 +105,12 @@ ul{
 .size-button{
     width:12%;
     height:50px;
+    background-color: white;
 }
 
 .footer{
     background: #F3F3F3;
-    width: 2200px;
+    width: 100%;
     height:250px;
     right: 0%;
     background-size: 100%;
@@ -153,9 +151,19 @@ ul{
 }
 
 .designed-base{
-    display: flex; flex-direction:row-reverse; justify-content:center; align-items:flex-end;
-    align-content:space-between
-   
+    background-color: #F2F2F2;
+    background-size: cover;
+    height: 68px;
+    
+}
+.display{
+    background-color: #F3F3F3;
+    background-size: cover;
+    width: 100%;
+}
+
+.text-footer{
+    display: inline-block;
 }
 
 
