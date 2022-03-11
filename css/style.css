@@ -17,6 +17,7 @@ body{
 }
 ul{
     background: none;
+    
 }
 
 .lista-inicial a{
@@ -68,12 +69,11 @@ ul{
 
 .section-run {
     background-image: url('../img/TENISPISTA.png');
-    width: 100%;
+    width:103%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
-    margin-left: 0%;
-    
+    margin: 0%;
 } 
 
 .header-li{
@@ -94,8 +94,6 @@ ul{
     
 }
 
-
-
 .display2{
     position: absolute;
     top: 48px;
@@ -114,8 +112,6 @@ ul{
     height:250px;
     right: 0%;
     background-size: 100%;
-    
-    
 }
 
 .section-insta{
@@ -147,24 +143,36 @@ ul{
 .title-run{
     font-size:50px;
     color: white;
-
 }
 
 .designed-base{
     background-color: #F2F2F2;
     background-size: cover;
     height: 68px;
+    width: 100%;
+    
     
 }
+
 .display{
     background-color: #F3F3F3;
     background-size: cover;
-    width: 100%;
+    
+    
 }
 
 .text-footer{
     display: inline-block;
+    margin-right: 0%;
+    
+    
 }
+
+
+       
+
+
+
 
 
 
