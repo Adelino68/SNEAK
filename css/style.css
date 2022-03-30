@@ -26,12 +26,12 @@ ul{
 }
 
 .titulo {
-    color: rgb(54, 51, 52);
     font-weight: bold;
     transition: .5s all;
     font-size: 70px;
+    color: #9f9f9f;
+    color: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
 }
-
 
 
 .section-initial div {
@@ -52,19 +52,145 @@ ul{
 
 
 .header {
-    font-size: 20px;
+    font-family: 'Lato', cursive;
+    padding: 32px 0;
+   
 }
 
 .section-tenis{
-    width: 520px;
+    width: 450px;
     height: 420px;
     object-fit: cover;
 }
 
 .corrida{
     position: absolute; 
-    right: 1000px;
-    top: 50%;
+    right: 0px;
+    top: 150px;
+}
+
+.corrida1{
+    position: absolute; 
+    left: 150px;
+    top: 180px;
+    
+}
+
+.corrida2{
+    position: absolute; 
+    left: 150px;
+    top: 400px;
+}
+
+.corrida3{
+    position: absolute; 
+    left: 150px;
+    top: 550px;
+}
+
+.corrida4{
+    position: absolute; 
+    left: 600px;
+    top: 750px; 
+    font-size: 40px;
+}
+
+.corrida5{
+    position: absolute; 
+    left:855px;
+    top: 860px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.corrida6{
+    position: absolute; 
+    left:620px;
+    top: 180px;
+}
+
+.corrida7{
+    position: absolute; 
+    left:820px;
+    top: 440px;
+}
+
+.corrida8{
+    position: absolute; 
+    left: 750px;
+    top: 520px;
+    
+}
+
+.corrida9{
+    position: absolute; 
+    left: 150px;
+    top: 1300px;
+}
+
+.back-corrida{
+    top: 650px;
+    background-color: #F3F3F3;
+    width: 1680px;
+    height: 650px;
+    position: absolute;
+    left: 150px;
+    border-radius: 10px;
+
+}
+
+.corrida10{
+    position: absolute; 
+    left: 150px;
+    top: 1450px;
+} 
+
+.corrida11{
+    position: absolute; 
+    left: 30px;
+    
+}
+
+.corrida12{
+    position: absolute; 
+    left: 150px;
+    top: 1650px;
+}
+
+.corrida13{
+    position: absolute; 
+    left: 1000px;
+    top: 632px;
+}
+
+.corrida14{
+    position: relative;
+    top: 860px;
+    display: flex;
+    justify-content:flex-end;
+    left: 860px;
+}
+
+.corrida15{
+    position: absolute; 
+    left: 150px;
+    top: 2750px;
+}
+
+.corrida16{
+    position: absolute; 
+    left: 150px;
+    top: 2980px;
+}
+
+.corrida17{
+    position: absolute; 
+    right: 400px;
+    top: 2820px;
+    width: 600px;
+    height: 500px;
+    
 }
 
 .section-run {
@@ -77,12 +203,14 @@ ul{
 } 
 
 .header-li{
-    display: initial;
+    display: flex;
+    justify-content: space-between;
 }
 .element-style{
     display: block;
     width: 100%;
     text-align: middle;
+    
 }
 
 .element-style-a{
@@ -91,12 +219,11 @@ ul{
     width: 48px;
     margin-inline-end: 0%;
     background-size: cover;
-    
 }
 
 .display2{
     position: absolute;
-    top: 48px;
+    top: 60px;
     right: 600px;
 } 
 
@@ -104,6 +231,16 @@ ul{
     width:12%;
     height:50px;
     background-color: white;
+    border-radius: 8px;
+}
+
+.size-button1{
+    width:20%;
+    height:60px;
+    background-color:none;
+    border-radius: 8px;
+    left: 700px;
+
 }
 
 .footer{
@@ -112,37 +249,69 @@ ul{
     height:250px;
     right: 0%;
     background-size: 100%;
+    
 }
 
 .section-insta{
-    width:20px;
-    height:20px;
+    width:40px;
+    height:40px;
 }
 
 .display3{
     position: absolute;
-    top: 700px;
+    top: 1350px;
     right: 80px;
     width: 600px;
 }
 
 .display4{
     position: absolute;
-    top: 700px;
+    top: 710px;
     right: 200px;
     width: 400px; 
 }
 
 .display5{
     position: absolute;
-    top: 700px;
+    top: 710px;
     right: 100px;
     width: 227.2px; 
 }
 
+
 .title-run{
     font-size:50px;
     color: white;
+    
+}
+
+.margin-seta{
+    position: absolute;
+    top: 30px;
+    left: 1%;
+}
+
+.margin-run{
+    margin: 10px;
+    position: absolute;
+    top: 3420px;
+    font-size: 100px;
+    left: 5%;
+}
+
+.margin-run1{
+    margin: 10px;
+    position: relative;
+    top: 150px;
+    font-size: 100px;
+    left: 1%;
+}
+
+
+
+.top-section{
+    position: absolute;
+    top:3550px;
 }
 
 .designed-base{
@@ -150,26 +319,330 @@ ul{
     background-size: cover;
     height: 68px;
     width: 100%;
-    
+    font-size: 30px;
     
 }
 
 .display{
     background-color: #F3F3F3;
     background-size: cover;
-    
+    width: 103%;
+    height: 500px;
     
 }
 
 .text-footer{
     display: inline-block;
     margin-right: 0%;
+}
+
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.header-title{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+}
+
+.header-list-item a {
+    color: #1f1f1f;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 12px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1{
+   position: relative;
+   width: 1900px;
+   height: 3456px;
+}
+
+.container{
+    width: 1533px;
+    max-width: 100%;
+    margin-left: 10%;
     
+}
+
+.container-flex{
+    display: flex;
+}
+
+.container-flex-spaced {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-cart{
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    background: url('./img/Vector.png') #f2f2f2; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+
+.header-search{
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: white;
+    background-image: url('./img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 13px 20px;
+    background-size: 18px;
+    border-radius: 50px;
+    border: 0;
+    min-width: 232px;
+    padding: 18px 20px 18px 40px;
+    font-family: 'Lato';
+    vertical-align: middle;
+}
+
+.header-search::before{
+    content: ''
+}
+
+.margin-cart{
+    margin-left: 0px;
+    padding: 16px 0px 18px 18px;
+}
+
+.footer-top{
+    top: 5000px
+}
+
+.form-flex{
+    position: relative;
+    right: 350px;
+    padding: 200px;
     
 }
 
 
-       
+.form-flex1{
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     
+     
+}
+
+.form-flex2{
+   display: flex;
+   margin-bottom: 20px;
+   position: relative;
+   top: -60px; 
+}
+
+.form-flex3{
+    margin-bottom: 40px;
+    position: relative;
+     top: -70px;
+}
+
+.form-flex4{
+    margin-bottom: 35px;
+    position: relative;
+    top: -70px;
+}
+
+.form-flex5{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    
+}
+
+.sice-title{
+    font-style: normal;
+    font-size: 40px;
+}
+
+.position-map{
+    position:relative;
+    left: 55px;
+    width: 700px;
+    height: 650px;
+    top: -40px;
+}
+
+.position-form{
+    position: absolute;
+    top: 100px;
+}
+
+.back-footer{
+   position: relative;
+   border: 50px;
+}
+
+.border-box{
+Width: 317px;
+Height: 36px;
+border-radius: 8px;
+position: relative;
+
+
+}
+
+.border-box1{
+  Width: 317px;
+  Height: 160px;
+  border-radius: 8px;
+  
+  
+}
+
+.border-box2{
+  Width: 317px;
+  Height: 56px;
+  border-radius: 8px;
+  position: relative;
+  top:-40px;
+}
+
+.back-form{
+    position: absolute;
+    background-color: #f2f2f2;
+    Width: 100px;
+    Height: 250px;
+    left: 940px;
+    
+}
+
+.back-form1{
+    position: absolute;
+    Width: 320px;
+    Height: 250px;
+    top: 4410px;
+    left: 840px;
+    
+}
+
+.corrida-top{
+    position: absolute; 
+    top: 10px;
+}
+
+.corrida-color{
+    position: absolute;
+    left: 160px;
+}
+
+.corrida-color1{
+    position: absolute;
+    left: 200px;
+}
+
+.corrida-color2{
+    position: absolute;
+    left: 240px;
+}
+
+.corrida-color3{
+    position: absolute;
+    left: 280px;
+}
+
+.position-footer{
+   position: absolute;
+   top: 113px;
+   left: 10%;
+   height: 20px;
+   width: 80px;
+}
+
+.position-footer1{
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    font-size: 20px;
+}
+
+ .position-footer2{
+    position: absolute;
+    top: 120px;
+    left: 18%;
+    font-size: 25px;
+ }
+    
+ .position-footer3{
+    position: absolute;
+    top: 80px;
+    left:50%;
+    font-size: 20px;
+}
+
+ .position-footer4{
+    position: absolute;
+    top: 120px;
+    left: 48%;
+    font-size: 25px;
+
+ }
+
+ .position-footer5{
+    position: absolute;
+    top: 80px;
+    left: 70%;
+    font-size: 20px;
+ }
+
+
+ .position-footer6{
+    position: absolute;
+    top: 80px;
+    left: 80%;
+    font-size: 20px;
+ }
+
+ .position-network{
+     position: absolute;
+     display: flex;
+     justify-content: flex-end;
+     top: 130px;
+     left: 68%;
+}
+
+.position-network1{
+    position: absolute;
+    top: 10px;
+    left: 80%
+
+}
+
+.position-network2{
+    position: absolute;
+    top: 10px;
+    left: 350%;
+
+}
+
+.position-network3{
+    position: absolute;
+    top: 10px;
+    left: 220%;
+}
+
+.position-designed{
+    position: absolute;
+    top: 400px;
+    left: 40%;
+}    
+
 
 
 
